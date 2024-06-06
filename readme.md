@@ -5,7 +5,7 @@ This is the official implementation of the paper "**Optimization of Latching Con
 ## Abstract
 In the field of wave energy extraction, employing active control strategies amplifies the Wave Energy Converter's (WEC) response to wave motion. In this regard, a numerical simulation study was conducted on the interaction between Duck WEC and waves under discrete latching control, proposing an optimized latching duration strategy based on Deep Reinforcement Learning (DRL). The study utilized an improved Edinburgh Duck model to establish a numerical wave flume (NWF), verifying the motion of waves and the device. A DRL and Computational Fluid Dynamics (CFD) coupled framework was developed to implement the latching control strategy. In the limited trichromatic wave testing conditions provided in this paper, the latching control time is optimized using a DRL agent, and its capture efficiency is compared with two non-predictive latching control strategies. The DRL agent control showed a 13.4% improvement relative to reference threshold control, with less than 6.3% differences compared to optimal threshold latching results. Improvement of approximately 5.6% was observed compared to optimal constant latching control. For the first time in nonlinear fluid dynamics numerical simulation, this study demonstrates the efficacy of model-free reinforcement learning with discrete latching actions, establishing an environment-driven control strategy, and having the potential to become a general strategy for WEC latching control.
 
-![image-20240606185849780](C:\Users\13600\AppData\Roaming\Typora\typora-user-images\image-20240606185849780.png)
+![Coupling Framework](Coupling Framework.png)
 
 
 
